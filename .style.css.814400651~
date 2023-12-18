@@ -1,0 +1,65 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.flex-container {
+  display: flex;
+
+}
+
+.flex-container > div {
+  background-color: orange;
+  height: 90px;
+  border: 2px solid black;
+  flex: 1;
+}
+
+.two {
+  display: flex;
+}
+
+.two div {
+  flex: 1;
+  margin: 1px;
+  border: 2px solid black;
+  
+}
+
+.secRow{
+  display: flex;
+}
+
+.secRow > div {
+  background-color: darkolivegreen;
+  margin: 5px 0;
+  height: 90px;
+  border: 2px solid black;
+  flex: 1;
+}
+
+.secRow-bc{
+  display: flex;
+  flex-direction: column;
+}
+
+.secRow-bc div {
+  flex: 1;
+  margin: 0 2px;
+  border: 2px solid black;
+}
+
+.last-container{
+  display: flex;
+}
+
+.last-container div{
+  background-color: orange;
+  height: 90px;
+  border: 2px solid black;
+  flex: 1;
+}
+
+.two-a, .two-b{
+  flex: 2;
+}
